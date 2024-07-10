@@ -1,28 +1,27 @@
-*{
-    margin: 0%;
-    padding: 0%;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.box
-
-{
-background-image: url(https://cdn.pixabay.com/photo/2022/09/14/01/12/portrait-7453154_640.jpg);
-background-position: center;
-background-repeat:no-repeat;
-background-size: cover;
-color: darkgoldenrod;
-height: 400px;
-width: 700px;
-margin:7rem auto;
+.box {
+    background-image: url(https://cdn.pixabay.com/photo/2022/09/14/01/12/portrait-7453154_640.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: darkgoldenrod;
+    height: 400px;
+    width: 700px;
+    margin: 7rem auto;
 }
-.head h2
-{
+
+.head h2 {
     text-align: center;
     font-size: 30px;
     padding: 23px;
 }
-.formbox
-{
+
+.formbox {
     margin: 20px auto;
     width: 400px;
     height: 150px;
@@ -34,24 +33,26 @@ margin:7rem auto;
     background-repeat: no repeat;
     background-position: right;
 }
-.formbox input
-{
+
+.formbox input {
     display: flex;
     width: 300px;
     margin: 16px;
-    border: none ;
+    border: none;
     padding: 7px;
     background-color: rgb(247, 218, 181);
     box-shadow: 2px 3px 6px;
 }
-.btn{
+
+.btn {
     padding-left: 14rem;
-    
+
 }
-.btn button{
+
+.btn button {
     padding: 0.5rem;
     font-size: 18px;
-    border-radius:5px;
+    border-radius: 5px;
     border: none;
     background-color: #373737;
     color: bisque;
